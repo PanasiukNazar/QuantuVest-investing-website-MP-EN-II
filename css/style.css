@@ -918,12 +918,12 @@
     display: none;
 }
 header i {
-    color: #00d1f9;
+    color: #20948b;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #00d1f9;
+    color: #20948b;
     font-weight: 500;
     text-align: center;
 }
@@ -931,7 +931,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #00d1f9;
+    color: #20948b;
     text-decoration: none;
     text-align: center !important;
 }
@@ -943,10 +943,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #00d1f9;
+    border: 2px solid #20948b;
     color: #fff;
     padding: 8px 0;
-    background: #00d1f9;
+    background: #20948b;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -955,18 +955,18 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #00d1f9;
+    color: #20948b;
 }
 #declineBtn {
     background-color: #fff;
-    color: #00d1f9;
+    color: #20948b;
     border-radius: 30px;
 }
 #declineBtn:hover {
-    background-color: #00d1f9;
+    background-color: #20948b;
     color: #fff;
 }
 #result {
-    color: #00d1f9;
+    color: #20948b;
     font-size: 14px;
 }

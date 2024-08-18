@@ -1,13 +1,13 @@
 /******* Customized Bootstrap ********/
 
-$primary: #00D1F9;
-$secondary: #19409A;
-$light: #F2F9F9;
+$primary: #20948b;
+$secondary: #19409a;
+$light: #f2f9f9;
 $dark: #001442;
 
 $font-family-base: 'Open Sans', sans-serif;
 
-$headings-font-family: "Playfair Display", serif;
+$headings-font-family: 'Playfair Display', serif;
 
 $body-color: #808080;
 
@@ -29,4 +29,4 @@ $link-decoration: none;
 
 $enable-negative-margins: true;
 
-@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/scss/bootstrap';
