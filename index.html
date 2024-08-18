@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>QuantuVest</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary">QuantuVest</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Home</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Service</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Testimonial</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contact</a
+                        >
+                    </div>
+                    <div class="d-none d-xl-flex me-3">
+                        <div
+                            class="d-flex flex-column pe-3 border-end border-primary"
+                        >
+                            <span class="text-body">Get Free to call us</span>
+                            <a href="tel:+4733378901"
+                                ><span class="text-primary"
+                                    >Free: +27448770339</span
+                                ></a
+                            >
+                        </div>
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4"
+                        >Contact Now</a
+                    >
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div
+                    id="carouselId"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="img/carousel-1.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption-1">
+                                <div
+                                    class="carousel-caption-1-content"
+                                    style="max-width: 900px"
+                                >
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4 fadeInLeft animated"
+                                        data-animation="fadeInLeft"
+                                        data-delay="1s"
+                                        style="animation-delay: 1s"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Unlocking Africa's Gold Potential
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4 fadeInLeft animated"
+                                        data-animation="fadeInLeft"
+                                        data-delay="1.3s"
+                                        style="animation-delay: 1.3s"
+                                    >
+                                        Discover Gold Capital Opportunities
+                                    </h1>
+                                    <p
+                                        class="mb-5 fs-5 text-white fadeInLeft animated"
+                                        data-animation="fadeInLeft"
+                                        data-delay="1.5s"
+                                        style="animation-delay: 1.5s"
+                                    >
+                                        Dive into the promising world of
+                                        Africa's gold investments. With the rise
+                                        of Motsepe investment strategies,
+                                        Africa’s gold market is poised for
+                                        substantial growth. Learn how Patrice
+                                        Motsepe's investment vision aligns with
+                                        emerging opportunities in Gold Capital
+                                        and how you can benefit from these
+                                        high-potential investments.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="img/carousel-2.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption-2">
+                                <div
+                                    class="carousel-caption-2-content"
+                                    style="max-width: 900px"
+                                >
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4 fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1s"
+                                        style="animation-delay: 1s"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Strategic Financial Planning for
+                                        Investors
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4 fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1.3s"
+                                        style="animation-delay: 1.3s"
+                                    >
+                                        Master Financial Strategies with Gold
+                                        Capital
+                                    </h1>
+                                    <p
+                                        class="mb-5 fs-5 text-white fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1.5s"
+                                        style="animation-delay: 1.5s"
+                                    >
+                                        Effective financial planning is crucial
+                                        for successful investments. Explore how
+                                        expert strategies in Gold Capital and
+                                        financial planning can help you optimize
+                                        your investment portfolio. Discover
+                                        insights on integrating Motsepe
+                                        investment principles and Patrice
+                                        Motsepe's investment strategies into
+                                        your financial plans for greater
+                                        returns.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon btn btn-primary fadeInLeft animated"
+                            aria-hidden="true"
+                            data-animation="fadeInLeft"
+                            data-delay="1.1s"
+                            style="animation-delay: 1.3s"
+                        >
+                            <i class="fa fa-angle-left fa-3x"></i
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon btn btn-primary fadeInRight animated"
+                            aria-hidden="true"
+                            data-animation="fadeInLeft"
+                            data-delay="1.1s"
+                            style="animation-delay: 1.3s"
+                            ><i class="fa fa-angle-right fa-3x"></i
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- feature Start -->
+        <div class="container-fluid feature bg-light py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-uppercase text-primary">Our Feature</h4>
+                    <h1 class="display-3 text-capitalize mb-3">
+                        Our Investment Features
+                    </h1>
+                    <p>
+                        Discover the key features that make our investment
+                        approach stand out. By leveraging innovative strategies
+                        and insights, we provide exceptional opportunities to
+                        grow your wealth. Explore how our focus on Motsepe
+                        investment principles, Africa's gold market, and
+                        strategic financial planning can enhance your investment
+                        journey. Learn about the integration of Patrice
+                        Motsepe’s investment vision and the potential of Gold
+                        Capital to maximize your financial success.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i
+                                    class="fas fa-solid fa-user text-white fa-3x"
+                                ></i>
+                            </div>
+                            <a href="#" class="h4 mb-3">
+                                Innovative Motsepe Investment Strategies
+                            </a>
+                            <p class="mb-3">
+                                Harness the power of cutting-edge Motsepe
+                                investment strategies to achieve superior
+                                returns. Our approach combines the insights of
+                                Patrice Motsepe's investment philosophy with
+                                modern financial techniques to offer you a
+                                unique edge in the investment world.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-filter text-white fa-3x"></i>
+                            </div>
+                            <a href="#" class="h4 mb-3">
+                                High-Potential Africa Gold Investments
+                            </a>
+                            <p class="mb-3">
+                                Explore lucrative opportunities in Africa’s gold
+                                market. By investing in Africa gold, you tap
+                                into a region rich in natural resources with
+                                high growth potential. Our expertise ensures you
+                                benefit from the most promising gold investments
+                                available.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-recycle text-white fa-3x"></i>
+                            </div>
+                            <a href="#" class="h4 mb-3">
+                                Strategic Gold Capital Opportunities
+                            </a>
+                            <p class="mb-3">
+                                Maximize your investments with our focus on Gold
+                                Capital. We provide expert guidance on
+                                navigating this dynamic sector, helping you
+                                capitalize on opportunities that align with your
+                                investment goals and risk tolerance.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i
+                                    class="fas fa-microscope text-white fa-3x"
+                                ></i>
+                            </div>
+                            <a href="#" class="h4 mb-3">
+                                Comprehensive Financial Planning</a
+                            >
+                            <p class="mb-3">
+                                Effective financial planning is essential for
+                                long-term success. Our services integrate
+                                detailed financial strategies with Motsepe and
+                                Patrice Motsepe’s investment insights to ensure
+                                your investment plans are both robust and
+                                adaptable to changing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feature End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about overflow-hidden py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="approach-img rounded h-100">
+                            <img
+                                src="img/approach.jpg"
+                                class="img-fluid rounded h-100 w-100"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="about-item">
+                            <h4 class="text-primary text-uppercase">
+                                Our Approach
+                            </h4>
+                            <h1 class="display-3 mb-3">
+                                Our Approach to Investing
+                            </h1>
+                            <p class="mb-4">
+                                At the heart of our investment philosophy lies a
+                                commitment to blending innovative strategies
+                                with a deep understanding of market dynamics.
+                                Our approach is designed to provide you with
+                                comprehensive solutions that align with your
+                                financial goals and risk tolerance. By
+                                integrating key concepts such as Motsepe
+                                investment principles, the potential of Africa
+                                gold, and the strategic insights of Patrice
+                                Motsepe’s investment vision, we offer a unique
+                                framework for achieving investment success. Our
+                                approach begins with a thorough analysis of the
+                                current financial landscape, focusing on
+                                high-growth sectors like Gold Capital. We
+                                leverage in-depth research and market analysis
+                                to identify opportunities that offer significant
+                                potential for return. This includes exploring
+                                the robust opportunities within Africa's gold
+                                market, which has emerged as a lucrative
+                                investment due to its rich natural resources and
+                                expanding economic growth. Financial planning is
+                                a cornerstone of our strategy. We believe that a
+                                well-structured financial plan is crucial for
+                                navigating the complexities of investment. Our
+                                financial planning services are tailored to
+                                address your individual needs, ensuring that
+                                your investment strategy is both realistic and
+                                adaptable. By incorporating the insights of
+                                Patrice Motsepe's investment principles, we
+                                ensure that your financial plan is informed by a
+                                successful track record and forward-thinking
+                                strategies. In addition to focusing on
+                                traditional investment avenues, we emphasize the
+                                importance of integrating innovative Motsepe
+                                investment approaches. This involves applying
+                                cutting-edge techniques and adapting to market
+                                trends to optimize your portfolio. Our team is
+                                dedicated to continuously monitoring and
+                                adjusting your investments to capitalize on
+                                emerging opportunities and mitigate potential
+                                risks.Ultimately, our goal is to provide you
+                                with a comprehensive investment strategy that
+                                not only meets but exceeds your financial
+                                aspirations. Through strategic investments in
+                                Gold Capital and Africa’s gold market, combined
+                                with expert financial planning, we aim to help
+                                you achieve sustained growth and long-term
+                                financial success. With our approach, you can be
+                                confident in navigating the investment landscape
+                                with a clear vision and a well-defined path to
+                                achieving your goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fact Counter -->
+        <div class="container-fluid counter py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i
+                                    class="fas fa-thumbs-up fa-3x text-white"
+                                ></i>
+                            </div>
+                            <h4 class="text-white my-4">Happy Clients</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >1456</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i
+                                    class="fas fa-regular fa-calendar-check fa-3x text-white"
+                                ></i>
+                            </div>
+                            <h4 class="text-white my-4">Projects Done</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >113</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-users fa-3x text-white"></i>
+                            </div>
+                            <h4 class="text-white my-4">Employees</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >53</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-heart fa-3x text-white"></i>
+                            </div>
+                            <h4 class="text-white my-4">Years Experiance</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >17</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact Counter -->
+
+        <!-- Products Start -->
+        <div class="container-fluid product py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-uppercase text-primary">Why choose us?</h4>
+                    <h1 class="display-3 text-capitalize mb-3">
+                        Why Choose Our Consulting Services
+                    </h1>
+                    <p>
+                        Choosing the right investment strategy is crucial for
+                        achieving financial success. At our firm, we combine
+                        expertise, innovative strategies, and a deep
+                        understanding of market trends to offer unparalleled
+                        investment opportunities. Our approach integrates key
+                        elements such as Motsepe investment principles, the
+                        high-growth potential of Africa gold, and the strategic
+                        insights of Patrice Motsepe’s investment vision. With a
+                        strong focus on Gold Capital and meticulous financial
+                        planning, we are dedicated to helping you achieve your
+                        investment goals with confidence and clarity.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="product-item">
+                            <img
+                                src="img/reasson1.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt="Image"
+                            />
+                            <div
+                                class="product-content bg-light text-center rounded-bottom p-4"
+                            >
+                                <a href="#" class="h4 d-inline-block mb-3"
+                                    >Expertise in Motsepe Investment
+                                    Strategies</a
+                                >
+                                <p>
+                                    We leverage proven Motsepe investment
+                                    strategies to guide your investment
+                                    decisions. Our team’s in-depth knowledge and
+                                    application of these principles ensure that
+                                    you benefit from tried-and-true methods that
+                                    align with your financial objectives and
+                                    risk tolerance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="product-item">
+                            <img
+                                src="img/reasson2.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt="Image"
+                            />
+                            <div
+                                class="product-content bg-light text-center rounded-bottom p-4"
+                            >
+                                <a href="#" class="h4 d-inline-block mb-3"
+                                    >Access to High-Growth Africa Gold
+                                    Opportunities</a
+                                >
+                                <p>
+                                    Africa’s gold market presents exceptional
+                                    investment potential. We provide you with
+                                    access to lucrative opportunities in Africa
+                                    gold, offering insights and strategies that
+                                    capitalize on the region’s rich resources
+                                    and promising economic outlook.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="product-item">
+                            <img
+                                src="img/reasson3.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt="Image"
+                            />
+                            <div
+                                class="product-content bg-light text-center rounded-bottom p-4"
+                            >
+                                <a href="#" class="h4 d-inline-block mb-3"
+                                    >Comprehensive Financial Planning with Gold
+                                    Capital Focus
+                                </a>
+                                <p>
+                                    Effective financial planning is essential
+                                    for achieving long-term investment success.
+                                    Our comprehensive financial planning
+                                    services are designed to integrate
+                                    seamlessly with your investment strategy,
+                                    including a focus on Gold Capital.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Products End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-uppercase text-primary">Our Blog</h4>
+                    <h1 class="display-3 text-capitalize mb-3">
+                        Our Latest Insights and Updates on Investment Strategies
+                        and Market Trends
+                    </h1>
+                    <p>
+                        Stay updated with the latest insights and trends in
+                        investing through our blog. We cover a wide range of
+                        topics to help you make informed decisions and optimize
+                        your investment strategy. From exploring innovative
+                        Motsepe investment techniques to understanding the
+                        potential of Africa gold, our blog provides valuable
+                        information and expert advice. Dive into our recent
+                        posts to learn more about strategic financial planning
+                        and how to leverage Gold Capital for your investment
+                        success.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt=""
+                                />
+                                <div class="blog-date px-4 py-2">
+                                    <i class="fa fa-calendar-alt me-1"></i> Jan
+                                    12 2023
+                                </div>
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <a class="h4 d-inline-block mb-3"
+                                    >Maximizing Returns with Motsepe Investment
+                                    Strategies</a
+                                >
+                                <p>
+                                    Discover how Motsepe investment strategies
+                                    can enhance your portfolio’s performance.
+                                    This blog post delves into the key
+                                    principles behind these strategies and how
+                                    they can be applied to achieve better
+                                    returns. Learn from successful examples and
+                                    adapt these techniques to fit your financial
+                                    goals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt=""
+                                />
+                                <div class="blog-date px-4 py-2">
+                                    <i class="fa fa-calendar-alt me-1"></i> May
+                                    03 2024
+                                </div>
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <a class="h4 d-inline-block mb-3">
+                                    The Rise of Africa Gold: Investment
+                                    Opportunities and Risks</a
+                                >
+                                <p>
+                                    Explore the growing potential of Africa’s
+                                    gold market. This post examines the
+                                    investment opportunities in Africa gold,
+                                    highlighting both the benefits and risks
+                                    involved. Understand the factors driving the
+                                    market and how to position yourself to take
+                                    advantage of this high-growth sector.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt=""
+                                />
+                                <div class="blog-date px-4 py-2">
+                                    <i class="fa fa-calendar-alt me-1"></i> Sep
+                                    11 2023
+                                </div>
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <a class="h4 d-inline-block mb-3">
+                                    Strategic Financial Planning for Investing
+                                    in Gold Capital</a
+                                >
+                                <p>
+                                    Effective financial planning is essential
+                                    for successful investments in Gold Capital.
+                                    This article provides insights into crafting
+                                    a robust financial plan that aligns with
+                                    your investment objectives. Learn how to
+                                    integrate financial planning with your
+                                    investment strategy to achieve long-term
+                                    success in Gold Capital.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h3 class="text-white mb-4">QuantuVest</h3>
+                                <p class="mb-3">
+                                    Explore a wealth of resources and stay
+                                    updated with the latest insights in
+                                    investing by connecting with us. Our footer
+                                    section provides easy access to key
+                                    information about our services, recent blog
+                                    posts, and contact details.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Links</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>Home</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i>About
+                                us</a
+                            >
+                            <a href="service.html"
+                                ><i class="fas fa-angle-right me-2"></i
+                                >Service</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>Terms of
+                                use</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>Privacy
+                                Policy
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Business Hours</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                                <p class="text-white mb-0">
+                                    09.00 am to 07.00 pm
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Saturday:</h6>
+                                <p class="text-white mb-0">
+                                    10.00 am to 05.00 pm
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Vacation:</h6>
+                                <p class="text-white mb-0">
+                                    All Sunday is our vacation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href="#"
+                                ><i class="fa fa-map-marker-alt me-2"></i> N1,
+                                Eden Meander Lifestyle center, shop 32, Knysna
+                                Rd, &, George, 6530, South Africa</a
+                            >
+                            <a href="mailto:info@example.com"
+                                ><i class="fas fa-envelope me-2"></i>
+                                quantu_vest@gmail.com
+                            </a>
+                            <a href="tel:+012 345 67890" class="mb-3"
+                                ><i class="fas fa-print me-2"></i>
+                                +27448770339</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Newsletter</h4>
+                            <p>
+                                Stay informed and ahead of the curve with our
+                                exclusive newsletter. Sign up to receive regular
+                                updates on the latest investment trends, expert
+                                insights, and strategic tips.
+                            </p>
+                        </div>
+                        <div class="position-relative">
+                            <input
+                                class="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Enter your email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                id="submit"
+                                onclick="sendForm()"
+                                class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                            >
+                                SignUp
+                            </button>
+                        </div>
+                        <div
+                            id="result"
+                            style="color: red; font-size: 12px"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
